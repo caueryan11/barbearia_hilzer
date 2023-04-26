@@ -1,17 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package barbearia;
 import java.util.Queue;
 import java.util.LinkedList;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
-/**
- *
- * @author CaueRyan
- */
+
 public class Barbearia implements Runnable{
     private String threadName;
     
